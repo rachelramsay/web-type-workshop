@@ -34,3 +34,12 @@ li{
 	/* a class assignment begins with a .*/	
 }
 
+.blink {
+    animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
