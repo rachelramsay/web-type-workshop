@@ -1,5 +1,7 @@
 body{
 	/* this is the outermost element on your page*/
+	background-image: url("https://www.spacejam.com/1996/img/bg_stars.gif");
+	color:white;
 }
 
 h1{
@@ -10,7 +12,7 @@ p{
 	/* paragraphs */	
 }
 
-a{
+a {
 	/* links */	
 }
 
@@ -42,4 +44,8 @@ li{
     50% {
       opacity: 0;
     }
+  }
+
+  mark {
+	text-transform:uppercase;
   }
